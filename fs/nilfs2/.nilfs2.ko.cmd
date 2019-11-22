@@ -1,0 +1,1 @@
+cmd_/home/manasij7479/code/simple-chdev/fs/nilfs2/nilfs2.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/manasij7479/code/simple-chdev/fs/nilfs2/nilfs2.ko /home/manasij7479/code/simple-chdev/fs/nilfs2/nilfs2.o /home/manasij7479/code/simple-chdev/fs/nilfs2/nilfs2.mod.o ;  true
