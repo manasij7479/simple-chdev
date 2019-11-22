@@ -1,0 +1,1 @@
+cmd_/home/pranavk/advos/simple-chdev/fs/ecryptfs/ecryptfs.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/pranavk/advos/simple-chdev/fs/ecryptfs/ecryptfs.ko /home/pranavk/advos/simple-chdev/fs/ecryptfs/ecryptfs.o /home/pranavk/advos/simple-chdev/fs/ecryptfs/ecryptfs.mod.o ;  true
