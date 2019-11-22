@@ -1,0 +1,1 @@
+cmd_/home/pranavk/advos/ext2/ext2.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/pranavk/advos/ext2/ext2.ko /home/pranavk/advos/ext2/ext2.o /home/pranavk/advos/ext2/ext2.mod.o ;  true
